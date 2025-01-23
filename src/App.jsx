@@ -30,7 +30,7 @@ export default function App() {
         </button>
 
         <div className="mt-8">
-          <ul className="grid grid-cols-4 gap-3">
+          <ul className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-3">
             {!projects.length && <h2>No project found...</h2>}
             {projects.map((project) => (
               <li key={project.id} className="p-4 bg-white shadow-lg rounded-md flex flex-col justify-between">
